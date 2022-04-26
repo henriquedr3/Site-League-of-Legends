@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+a {
+    color: whitesmoke;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.caixa {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 15px;
+    padding: 16px 28px;
+    width: 150x;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.banco {
+    background-color: rgba(0, 0, 0, 0.51);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    border: solid rgb(255, 255, 255);
+    border-width: medium;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-right: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 20px 30px;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+}
+
+.img1 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+footer {
+    border: solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.19);
+    margin: 25px 330px;
+    color: #FFFFFF;
+}
+
+.div1 {
+    padding-left: 6px;
+}
